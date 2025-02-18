@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>PieLogic</title>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;600&display=swap"
+    rel="stylesheet">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <div class="container">
+    <img src="img/pizza.png" alt="A cozy pizza store with a wood-fired oven, warm lighting, and a rustic interior.">
+    <h1>PieLogic</h1>
+    <p>Base Price: $10</p>
+    <p>Each Topping: $2</p>
+    <form id="pizza-order-form">
+      <div class="toppings">
+        <label class="topping-label">
+          <input type="checkbox" name="topping" value="pepperoni">
+          Pepperoni
+        </label>
+        <label class="topping-label">
+          <input type="checkbox" name="topping" value="mushrooms">
+          Mushrooms
+        </label>
+        <label class="topping-label">
+          <input type="checkbox" name="topping" value="onions">
+          Onions
+        </label>
+        <label class="topping-label">
+          <input type="checkbox" name="topping" value="peppers">
+          Peppers
+        </label>
+      </div>
+      <button type="submit">Calculate Total</button>
+      <p id="total"></p>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
