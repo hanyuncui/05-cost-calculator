@@ -43,7 +43,7 @@ img {
 
 #total {
   font-size: 32px;
-  margin: 20px 0;
+  margin-bottom: 0;
   color: #8b0000;
   font-weight: bold;
 }
