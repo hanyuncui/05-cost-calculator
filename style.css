@@ -44,6 +44,10 @@ img {
   box-sizing: border-box;
 }
 
+.topping-label:hover {
+  background: #fdf4e9;
+}
+
 #total {
   font-size: 32px;
   margin-top: 22px;
